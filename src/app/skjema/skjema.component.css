@@ -1,0 +1,10 @@
+.skjema {
+  display: flex;
+  flex-direction: column;
+  gap: var(--fhi-spacing-250);
+  padding: var(--fhi-spacing-300);
+  border-width: var(--fhi-dimension-border-width);
+  border-color: var(--fhi-color-neutral-border-default);
+  background-color: var(--fhi-color-neutral-background-subtle);
+  border-radius: var(--fhi-border-radius-100);
+}

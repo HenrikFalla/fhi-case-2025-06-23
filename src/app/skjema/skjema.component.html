@@ -1,0 +1,9 @@
+<form [formGroup]="skjema" (ngSubmit)="onSubmit()" class="skjema">
+  <fhi-text-input
+    id="navn"
+    label="Ditt navn"
+    placeholder="Navn Navnesen"
+    formControlName="navn"
+  />
+  <fhi-button type="submit">Registrer navnet ditt</fhi-button>
+</form>
